@@ -10,6 +10,11 @@ public class Merge {
 			else if(aux[j] < aux[lo]) a[k] = aux[j++];
 			else 					 a[k] = aux[lo++];
 		}
+        
+        for(int i=0; i<aux.length; i++){
+            printArray(aux);
+            System.out.println();
+        }        
 	}
 
     public static void sort(int[] array, int[] aux, int lo, int hi){
@@ -30,7 +35,7 @@ public class Merge {
 
     public static void printArray(int[] array){
         for(int i=0; i<array.length; i++)
-            System.out.println(array[i] + " ");
+            System.out.print(array[i] + " ");
     }
 
     public static void main(String[] args) {
