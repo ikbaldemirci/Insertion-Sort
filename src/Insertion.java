@@ -15,7 +15,6 @@ public class Insertion{
 		for(int i=0;i<a1.length;i++)
             System.out.print(a1[i] + " ");        		
 	}
-    
 	public static void main(String[] args) {
 		int[] m = {22,27,16,2,18,6};
 		sort(m);
