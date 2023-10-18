@@ -15,6 +15,7 @@ public class Merge {
             printArray(aux);
             System.out.println();
         }        
+        main(null);
 	}
 
     public static void sort(int[] array, int[] aux, int lo, int hi){
